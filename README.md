@@ -20,3 +20,9 @@ Just run the following command:
 ```
 $ mkapp app
 ```
+
+# The Python Way:
+If you don't want to use bash, You can do the same in pure Python, Just clone this repo, and execute the mkapp.py followed by your application's name:
+```
+python mkapp.py Myapp
+```
