@@ -3,7 +3,7 @@
 # Get Started
 Add the following to your `~/.bashrc`
 ```
-function mkapp { mkdir "$1" "$1/static" "$1/templates" "$1/static/css" "$1/static/js" "$1/static/img"; }
+function mkapp { mkdir -p "$1"/{static/{js,img,css},templates}; }
 ```
 Now, if you want to create the directories:
 ```
